@@ -1,7 +1,7 @@
 # Wiki-Game-Solver
-A real-time navigation program over Wikipedia's articles’ graph. Implementing a bi- directional extension for the classic A* search and a variety of heuristics based on  different domains, including NLP and Graph Theory, in order to defeat a human on the popular Wiki-Game.\n
+A real-time navigation program over Wikipedia's articles’ graph. Implementing a bi- directional extension for the classic A* search and a variety of heuristics based on  different domains, including NLP and Graph Theory, in order to defeat a human on the popular Wiki-Game.<br>
 
- WikiProblem.py - this module implements the WikiProblem which serves the problem interface using the online wikipedia API. it gives more data (text, categories etc.) but is slower than the offline interface.
+ WikiProblem.py - this module implements the WikiProblem which serves the problem interface using the online wikipedia API. it gives more data (text, categories etc.) but is slower than the offline interface. <br>
  WikiSolver.py - this module implements all solving mechanisms it includes a node class (used for tracking depth and path of search) a "base search" that is used for running all A* variations and all heuristics used in our project.
  OnlineGamer.py - this script uses selenium in order to play online on https://thewikigame.com. It only executes code from WikiSolver. to see the agent competes with others online just run the script with no arguments.
  executor.py - this file runs the code. it allows to run a single search with a single heuristic or run a full test that writes results to a tsv file. to see the correct usage run this script with no arguments.
