@@ -10,7 +10,7 @@ A real-time navigation program over Wikipedia's articles’ graph. Implementing 
 <li>index.html - the website from this project, describing it in hebrew. </li>
 <li>improved_wikipedia (package) - an improvement for the popular wikipedia package, allowing quering more pages and info about pages with less requests.</li>
 </ul>   
- for the offline heuristics download the offline DB from: https://drive.google.com/open?id=1kf_FEVSy6z_ACcL7kqop9a6LCXAP8jKB. Extract the file and save it near this repository, in a parent directory, under the name "sdow.sqlite". <br>
+ for the offline heuristics download the <a href="https://drive.google.com/open?id=1kf_FEVSy6z_ACcL7kqop9a6LCXAP8jKB"> offline DB</a>. Extract the file and save it near this repository, in a parent directory, under the name "sdow.sqlite". <br>
 # requirements:
 <ul>
   <li>wikipedia</li>
