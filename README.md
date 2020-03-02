@@ -10,7 +10,7 @@ A real-time navigation program over Wikipedia's articles’ graph. Implementing 
 <li>index.html - the website from this project, describing it in hebrew. </li>
 <li>improved_wikipedia (package) - an improvement for the popular wikipedia package, allowing quering more pages and info about pages with less requests.</li>
 </ul>   
- <br>
+
 # requirements:
 <ul>
   <li>wikipedia</li>
